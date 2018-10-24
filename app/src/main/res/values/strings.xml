@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">IndiviualProject2</string>
+    <string name="login_success">Success!</string>
+    <string name="error_login">Invalid Email or Password</string>
+    <string name="btn_login">Login</string>
+    <string name="btn__register">Register Account</string>
+    <string name="hint_pass">Password</string>
+    <string name="hint_Email">Email</string>
+    <string name="login_lbl">Login to your account</string>
+    <string name="error_empty">Field can\'t be empty</string>
+    <string name="error_shortfield">Field must have at least 3 characters</string>
+    <string name="error_short_password">Password must be longer than 5 characters</string>
+    <string name="error_email">Invaid Email Address</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="birth_date">Date of birth</string>
+    <string name="email_lbl">Email Address</string>
+    <string name="pass_lbl">Password</string>
+    <string name="error_form">Invalid Input!</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

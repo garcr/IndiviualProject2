@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- TODO: Update blank fragment layout -->
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="Radio_Button"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp">
+
+
+    <TextView
+        android:id="@+id/question"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:layout_centerHorizontal="true"
+        android:textSize="25sp" />
+
+    <LinearLayout
+        android:id="@+id/radiobtns"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/question"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="52dp"
+        android:gravity="center_vertical"
+        android:orientation="vertical">
+
+        <CheckBox
+            android:textSize="20sp"
+            android:id="@+id/check_one"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="btn" />
+
+        <CheckBox
+            android:textSize="20sp"
+            android:id="@+id/check_two"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="btn" />
+
+        <CheckBox
+            android:textSize="20sp"
+            android:id="@+id/check_three"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="btn" />
+
+        <CheckBox
+            android:textSize="20sp"
+            android:id="@+id/check_four"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="btn" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_check_submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_below="@+id/radiobtns"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:text="Submit Answer" />
+
+</RelativeLayout>
+
